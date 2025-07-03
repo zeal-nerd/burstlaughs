@@ -7,10 +7,6 @@ load_dotenv()
 app = Flask(__name__)
 
 @app.route('/')
-def home():
+def index():
     asyncio.run(send_story())
-    return 'Hello, World!'
-
-@app.route('/about')
-def about():
-    return 'About'
+    return 'Job done!'
