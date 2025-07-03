@@ -1,13 +1,8 @@
 {
-  "functions": {
-    "api/send_story.py": {
-      "runtime": "python3.11"
-    }
-  },
   "crons": [
     {
       "path": "/api/send_joke",
-      "schedule": "*/1 * * * *" 
+      "schedule": "*/ * * * *" 
     }
   ]
 }

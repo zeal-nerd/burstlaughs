@@ -1,5 +1,5 @@
 import asyncio
-from story_engine import send_story
+from api.story_engine import send_story
 
 def handler(event, context):
     asyncio.run(send_story())
