@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/send_joke",
-      "schedule": "*/ * * * *" 
+      "schedule": "* 10 * * *" 
     }
   ]
 }
